@@ -5,4 +5,4 @@ And in this project, I have implemented the best model in the paper [Predicting 
 
 # Data Processing
 
-![image](https://drive.google.com/uc?export=view&id=1sLFwmG_VfTTDPK8Op4TblAau1pNwNFfc "BTC price data pipeline and how to feed it to forecasting model")
+![image](https://drive.google.com/uc?export=view&id=1SVOEIASVWzmCbl99TQZpdChUXjRBccfY "BTC price data pipeline and how to feed it to forecasting model")
