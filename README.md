@@ -10,6 +10,9 @@ And in this project, I have implemented the best model in the paper [Predicting 
 
 # Source code
 
+1. Clone the project
+2. Download data files of tweet from [Kaggle]()
+3. Add some subfolders to each model folder to store feature files, model files, checkpoints... as below:
 ```bash
 ├── data
 │   ├── Bitcoin_tweets.csv
