@@ -28,6 +28,6 @@ And in this project, I have implemented the best model in the paper [Predicting 
 5. Log in to Binance.com to create [API keys](https://www.binance.com/en/binance-api) (If you have not got an Binance account yet, you should sign up to have one).
 6. Insert your API keys into config.py file.
 7. Run btc_binance.py file to get historical price (in USD) of BTC 
-   (There is an easier way to get BTC price without account and API keys. That is using yfinance library to get price from Yahoo Finance. Yfinance only provides price in the last 7 days with minimal interval is 1 hour. And in my experience, yfinance runs unstably!)
+   (There is an easier way to get BTC price without account and API keys. That is using yfinance library to get price from Yahoo Finance. But yfinance only provides price in the last 7 days with minimal interval is 1 hour. And in my experience, yfinance runs unstably!)
 8.  Run tweet.py file to process the tweet data (clean text and calculate sentiment score) and to merge the price data set with the sentiment score by time steps. We have a single dataset to feed into predict models.
 9.  Run model.py file to fit model.
