@@ -8,6 +8,17 @@ And in this project, I have implemented the best model in the paper [Predicting 
 
 ![image](https://drive.google.com/uc?export=view&id=1ekxoaxDdCWZqLqvlO43RfhvZ0u5ptbdA "BTC price data pipeline and how to feed it to forecasting model")
 
+## Text preprocessing
+
+## Sentiment Analysis
+
+## Data Aggregation
+
+## Data merging and splitting
+
+
+# Model
+
 # Source code
 
 1. Clone the project
