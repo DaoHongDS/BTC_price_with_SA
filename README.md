@@ -31,6 +31,8 @@ There are some steps in text preprocessing:
 
 ## Sentiment Analysis
 
+After text preprocessing stesp, cleaned tweets dataset is input for VADER Sentiment Analysis
+
 ## Data Aggregation
 
 ## Data merging and splitting
