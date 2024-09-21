@@ -1,8 +1,8 @@
 # BTC_price_with_SA
 
-Do you own bitcoin (BTC)? Do you want to know the trend of BTC price in near future? I do.
+Do you own bitcoin (BTC)? Do you want to know the trend of BTC price in the near future? 
 
-And in this project, I have implemented the best model in the paper [Predicting the Price of Bitcoin Using Sentiment-Enriched Time Series Forecasting](https://www.mdpi.com/2504-2289/7/3/137)
+In this project, I have implemented the best model in the paper [Predicting the Price of Bitcoin Using Sentiment-Enriched Time Series Forecasting](https://www.mdpi.com/2504-2289/7/3/137)
 
 # Data Processing
 
@@ -29,10 +29,12 @@ There are some steps in text preprocessing:
 4. Lemmatize and stemming
 5. Remove stop words
 
+After text preprocessing steps, cleaned tweets dataset is input for Sentiment Analysis.
+
 ## Sentiment Analysis
 
-After text preprocessing steps, cleaned tweets dataset is input for VADER Sentiment Analysis (VADER SA).
-VADER SA is a rule based model which is builded from sentiment of each word in document and some heuristics (Punctuation, Capitalization, Degree modifiers...).
+VADER Sentiment Analysis (VADER SA) is used to obtain sentiment score of each tweet.  
+VADER SA is a rule based method which is builded from sentiment of each word in document and some heuristics (Punctuation, Capitalization, Degree modifiers...).
 For each piece of text, VADER provides 4 sentiment scores: 
 
 - <em>possitive, negative, neutral</em> - valence scores, corresponding to sentiment polarity with intensity.
@@ -40,7 +42,10 @@ For each piece of text, VADER provides 4 sentiment scores:
 
 ## Data Aggregation
 
+The next step is aggregating the sentiment of all tweets from each interval (30-min) into a single sentiment score corresponding to that time period.
+The overall sentiment score of each interval is weighted by number of followers as below:
 
+$\sum_{n}{i=1}\frac{s(x_i)}{n}$
 
 ## Data merging and splitting
 
