@@ -45,7 +45,7 @@ For each piece of text, VADER provides 4 sentiment scores:
 The next step is aggregating the sentiment of all tweets from each interval (30-min) into a single sentiment score corresponding to that time period.
 The overall sentiment score of each interval is weighted by number of followers as below:
 
-$\sum_{n}{i=1}\frac{s(x_i)}{n}$
+$\sum_{n}^{i=1}\frac{s(x_i)}{n}$
 
 ## Data merging and splitting
 
