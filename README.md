@@ -46,8 +46,11 @@ The next step is aggregating the sentiment of all tweets from each interval (30-
 The overall sentiment score of each interval is weighted by number of followers as below:
 
 $$
-  \sum_{i=1}^{n}\frac{s(x_i)}{n}
+  \frac{\sum_{i=1}^{n}s(x_i)(\ln(w_i+1)+1)}{\sum_{i=1}{n}\ln(w_i+1)+1}
+  
 $$
+
+
 
 ## Data merging and splitting
 
