@@ -31,7 +31,12 @@ There are some steps in text preprocessing:
 
 ## Sentiment Analysis
 
-After text preprocessing steps, cleaned tweets dataset is input for VADER Sentiment Analysis
+After text preprocessing steps, cleaned tweets dataset is input for VADER Sentiment Analysis (VADER SA).
+VADER SA is a rule based model which is builded from sentiment of each word in document and some heuristics (Punctuation, Capitalization, Degree modifiers...).
+For each piece of text, VADER provides 4 sentiment scores: 
+
+- <em>possitive, negative, neutral</em> - corresponding to sentiment polarity with intensity.
+- compound score is computed by summing the valence scores of each word in the lexicon, adjusted according to the rules, and then normalized to be between -1 (most extreme negative) and +1 (most extreme positive)
 
 ## Data Aggregation
 
