@@ -21,6 +21,14 @@ There is an easier way to get BTC price without account and API keys. That is us
 
 ## Text preprocessing
 
+There are some steps in text preprocessing:
+
+1. Replace the abbreviations
+2. Remove http/https links, tagged accounts, extra spaces and special characters
+3. Lower case all the tweets
+4. Lemmatize and stemming
+5. Remove stop words
+
 ## Sentiment Analysis
 
 ## Data Aggregation
