@@ -40,6 +40,8 @@ For each piece of text, VADER provides 4 sentiment scores:
 
 ## Data Aggregation
 
+
+
 ## Data merging and splitting
 
 
