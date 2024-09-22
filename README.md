@@ -60,6 +60,12 @@ The merged dataset is splitted into train, validation and test dataset with appr
 
 # Model
 
+The experiments in the paper prove that simpler models, particularly <em>Linear Regression</em> models have the best performance, while the more complex models are overfitting. Therefore, Linear Regression models are implemented here.
+
+16 past BTC price values and sentiment scores are fed into the forcasting models. They will generate forecasts price for the future 8 time steps.
+
+The models are evaluated by comparing BTC predicted values with the actual values in terms of MAE and RMSE metrics.
+
 # Source code
 
 1. Clone the project
