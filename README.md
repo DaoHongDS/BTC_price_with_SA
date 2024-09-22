@@ -49,10 +49,13 @@ $$
   \frac{\sum_{i=1}^{n}s(x_i)(\ln(w_i+1)+1)}{\sum_{i=1}^{n}\ln(w_i+1)+1}  
 $$
 
-
+where $s(x_i)$ is the sentiment score of a tweet $x_i$ in the current interval, $w_i$ is the number of followers the author of the tweet had at the time of creation.
 
 ## Data merging and splitting
 
+Finally, the 2 tweet and historical price datasets are merged into a single dataset by matching their respective time steps.
+
+The merged dataset is splitted into train, validation and test dataset with approximate percent are 80%, 10% and 10% (avoid splitting during a period with data gaps).
 
 # Model
 
