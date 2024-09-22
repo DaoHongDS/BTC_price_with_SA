@@ -18,7 +18,7 @@ If you want to get more updated and more "beautiful" tweets data from X, you can
 
 In this project, BTC historical price is get from Binance.com by API keys. You can get [API keys](https://www.binance.com/en/binance-api) for free if you have an Binance account.
 
-There is an easier way to get BTC price without account and API keys. That is using yfinance library to get price from Yahoo Finance. But yfinance only provides price with minimal interval is 1 hour. And in my experience, yfinance runs unstably!
+There is an easier way to get BTC price without an account and any API keys. That is using yfinance library to get price from Yahoo Finance. But yfinance only provides price with minimal interval is 1 hour. And in my experience, yfinance runs unstably!
 
 ## Text preprocessing
 
