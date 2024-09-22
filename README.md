@@ -10,8 +10,9 @@ In this project, I have implemented the best model in the paper [Predicting the 
 
 ## Twitter dataset
 
-Data files of tweets are downloaded from [Kaggle](https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets).
-If you want to get more updated and "beautiful" tweets data from X, you can visit [X Developer Portal](https://developer.x.com/en/docs/x-api/getting-started/about-x-api) and pay for its API.
+Data files of tweets are downloaded from [Kaggle](https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets). This dataset spans from 2021-02-05 to 2023-03-05 with some gaps.
+
+If you want to get more updated and more "beautiful" tweets data from X, you can visit [X Developer Portal](https://developer.x.com/en/docs/x-api/getting-started/about-x-api) and pay for its API.
 
 ## Bitcoin historical price
 
