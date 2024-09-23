@@ -83,7 +83,7 @@ The models are evaluated by comparing BTC predicted values with the actual value
 ├── text_process.py
 ├── tweet.py
 ```
-5. Log in to Binance.com to create [API keys](https://www.binance.com/en/binance-api) (If you have not got an Binance account yet, you should sign up to have one).
+5. Log in to Binance.com to create [API keys](https://www.binance.com/en/binance-api) (If you have not got a Binance account yet, you should sign up to have one).
 6. Insert your API keys into config.py file.
 7. Run btc_binance.py file to get historical price (in USD) of BTC 
 8.  Run tweet.py file to process the tweet data (clean text and calculate sentiment score) and to merge the price data set with the sentiment score by time steps. We have a single dataset to feed into predict models.
